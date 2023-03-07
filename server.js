@@ -7,7 +7,7 @@ require('console.table');
 var connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    database: 'employeeDb',
+    database: 'employeeTracker_db',
     password: 'password'
 })
 
